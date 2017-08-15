@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<head>
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Twitter Geo-Streaming</title>
+</head>
+
+<body>
+  <input id="pac-input" class="controls" type="text" placeholder="Search Box">
+  <div id="map"></div>
+  <br />
+  <table id="twitter" class="tg">
+    <thead>
+      <tr>
+        <th>User Name</th>
+        <th>Message</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+
+  <script type="text/javascript" src="js/jquery.1.8.2.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <!-- ASYNC mode -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9C5eBAOBShzba0cBSkqaDhlddA-WwWak&libraries=places,drawing&callback=initMap"
+         async defer></script>
+  <!-- SYNC mode
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9C5eBAOBShzba0cBSkqaDhlddA-WwWak&libraries=places,drawing"></script> -->
+</body>
+</html>

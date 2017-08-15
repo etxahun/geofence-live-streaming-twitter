@@ -1,0 +1,62 @@
+
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  /*height: 100%;*/
+  margin-top: 5px;
+  padding: 0;
+}
+
+/*
+   ============================= TABLE RELATED CSS ==========================
+*/
+#map {
+  height: 300px;
+}
+
+.tg {
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 1px;
+  border-color: #000000;
+  border-style: solid;
+  color: #000000;
+  margin-left: 10px;
+  font-size: 12px;
+  font-family: Roboto;
+}
+
+.tg td, .tg th {
+  border-width: 1px;
+  border-color: #000000;
+  border-style: solid;
+  padding: 3px;
+}
+
+.tg thead {
+  color: #ffffff;
+  background-color: #165471;
+}
+
+/*
+   ========================== SEARCH BOX RELATED CSS ==========================
+*/
+#pac-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: 4px;
+  margin-left: 12px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 200px;
+  height: 22px;
+}
+
+#pac-input:focus {
+  border-color: #4d90fe;
+}
+
+.pac-container {
+  font-family: Roboto;
+}
