@@ -34,5 +34,5 @@ It will be listening on port 4200.
 ## References
 
 The following is a list of useful references used for the development of the application:
-* [Getting Node and Motion Jpeg onto a R-Pi](https://skippy.org.uk/getting-node-and-motion-jpeg-onto-a-r-pi/)
-* [Node.js app with forever running as a service daemon](http://www.slidequest.com/q/70ang)
+* [Node.js 'Twit' package](https://www.npmjs.com/package/twit)
+* [Twitter Streaming API](https://dev.twitter.com/streaming/overview/request-parameters)
