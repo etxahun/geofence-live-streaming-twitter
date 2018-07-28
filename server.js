@@ -6,14 +6,6 @@ var server = require('http').createServer(app)
 var io = require('socket.io')(server)
 var config = require('./config')
 
-// var T = new Twit({
-//   consumer_key: 'MTme5qq5XSmt3URKf7feaNhKK',
-//   consumer_secret: 'tstGpqf9Lue0aatrDVY7Vua8ZpyAQF0oYFxMgBF5EuALZMItxO',
-//   access_token: '740303653542760449-V16Zj8ZcFTD1dFtZBZksQuYXYNX6mtA',
-//   access_token_secret: 'PvjdKDE91AHgHoccPvG6Q1333JX87lZnIy7VoEppVkP0u',
-//   timeout_ms: 60 * 1000  // optional HTTP request timeout to apply to all requests.
-// })
-
 var T = new Twit({
   consumer_key: config.consumer_key,
   consumer_secret: config.consumer_secret,
